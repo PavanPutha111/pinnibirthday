@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("birthday-bg.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+h1{
+    animation: flicker 1.5s infinite alternate;
+}
+
+
+@keyframes flicker {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow: 0 0 4px blue, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa, 0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
+    }
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+.container .row img{
+    border: 2px solid green;
+}
+
+/* .birthday-bg{
+    background-image: url("birthday-bg.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    width: 100%;
+} */
+
+#amma{
+    margin: auto;
+ 
+}
+
+#amma img{
+    border-radius: 120%;
+}
+
+.wish-nikki{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+.wish-priya{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+.wish-venni{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+.wish-sush{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+.wish-lohitha{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+.wish-balaji{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+.wish-sriharini{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+.wish-pavan{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+
+.wish-kunni{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+
+.wish-teja{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+
+.wish-lakshmi{
+    text-align: center;
+    background: rgb(9, 209, 159);
+    color: white;
+    padding: 30px;
+    display: none;
+}
+
+/* 
+.momEffects{
+    width: 100%;
+    box-shadow: 5px 5px green pink red;
+} */
+
+footer{
+    background-color: red;
+    padding: 10px;
+}
+
+
+
+@media (max-width:900px){
+    body{
+        text-align: center;
+    }
+
+}
